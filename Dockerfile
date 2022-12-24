@@ -4,4 +4,4 @@ WORKDIR /app
 RUN ls -ltr
 RUN pip install -r requirements.txt
 EXPOSE 5000
-CMD ["pyagent", "run", "-c", "--", "uwsgi", "--ini", "uwsgi.ini"]
+CMD ["pyagent", "run", "-c appd.cfg", "--", "uwsgi", "--ini", "uwsgi.ini"]
