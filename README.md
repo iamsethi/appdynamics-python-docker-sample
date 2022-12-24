@@ -6,7 +6,7 @@ Simple flask application instrumentation that demonstrate appdynamics python age
 
 Step 1: Clone project and enter into project folder
 ```
-git clone https://github.com/arungpro/appdynamics-python-docker-sample.git
+git clone https://github.com/iamsethi/appdynamics-python-docker-sample.git
 cd appdynamics-python-docker-sample
 ```
 
